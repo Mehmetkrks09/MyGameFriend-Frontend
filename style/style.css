@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color:#e84242;
+    --black-color:#0e0e0e;
+    --border-color: 0.1rem solid rgba(255,255,255,0.4);
+}
+
+*{
+font-family: 'Poppins', sans-serif; 
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ outline: none;
+ border: none;
+ text-decoration: none;
+ text-transform: capitalize;
+ transition: 0.2s ease;
+
+ 
+}
+
+html{
+   
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.3rem;
+    background-color: white;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: var(--black-color);
+}
+
+/* Navbar-start */
+.navbar{
+    margin: 5px auto 2px auto;
+    background-color:#FFFFFF;
+    border-radius: 50px;
+    max-width: 1237px;
+    max-height: 60px;
+    align-items: center;
+    z-index: 100;
+   
+}
+.navbar-detail{
+  
+display: flex;
+    max-width: 1205px;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    
+}
+
+.navbar-detail img{
+max-width: 40px;
+max-height: 40px;   
+ }
+
+ .navbar-detail a h3{
+    font-weight: 700;
+    
+     }
+ .navbar-detail .nav-right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   background-color: transparent;
+}
+.navbar-detail .buttons{
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center; 
+ }
+ /* Navbar-End */
+ /* Background-Start */
+ body {
+    min-height: 100vh;
+    background:url(../images/bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   }
+  /* Background-End */ 
+.games{
+    position: absolute;
+    width: 85px;
+    height: 110%;
+    background: #3D3A3A;
+    margin-top: -60px;
+    display: flex;
+    align-items: end;
+    
+}
+
+.games .gameContainer {
+  
+   width: 85px;
+   height: 90%;
+
+    
+}
+
+
+.games .gameContainer h3{
+  
+    text-align: center;
+    color:blueviolet;
+    font-weight: 500;
+    
+    
+}
+.games .gameContainer .games-area{
+    
+    width: 85px;
+    height: 90%;
+    display: block;
+    align-items: flex-end;
+    padding-top: 80px;
+  
+}
+
+.games .gameContainer .games-area  .game a img{
+    max-width: 50px;
+    max-height: 50px;
+  
+}
+.games .gameContainer .games-area p{    
+    font-weight: 300;
+    color: aliceblue;
+    margin-top: -5px;
+}
+.games .gameContainer .games-area .game{  
+    margin-top: 10px;
+    margin-left: 15px;
+}
+/* Friends-Layout-Start */
+.friends{
+    margin-left: 85px;
+    margin-top: -60px;
+    position: absolute;
+    width: 234px;
+    height: 110%;
+    background-color: #464646;
+    opacity: 0.9;
+    z-index: -1;
+}
+.friends h3{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.friends .firends-container{
+position: absolute;
+width: 200px;
+height: 620px;
+flex-direction: column;
+align-content: center;
+
+}
+.friends .firends-container .person .friendsInfo{
+    color: white;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 3px;
+    width: 150px;
+    height: 50px;
+}
+
+.friends .firends-container .person .friendsInfo .status h5{
+    display: flex;
+    font-size: small;
+}
+.friends .firends-container  .person .friendsInfo .status p{
+    display: flex;
+    font-size: small;
+    color: red;
+    margin-left: 5px;
+}
+
+.friends .firends-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.friends .firends-container .person  img{
+height: 50px;
+width: 50px;
+margin-right: 10px;
+    
+}
+.friends .firends-container .person{
+   display: flex;
+   justify-content: start;
+   margin-top: 20px;
+   /* background: rgba(70, 70, 70, 1); */
+   border-style: solid;
+   border-color:  rgb(52, 52, 52); ;
+   
+}
+.friends .firends-container .person :hover{
+    background: rgb(47, 47, 47,0.8);    
+ }
+
+/* Friends-Layout-End */
+/* Footer */
+
+
+
+
+  
+
+
+   
+    
+    
+
